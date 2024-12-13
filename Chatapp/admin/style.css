@@ -1,0 +1,94 @@
+.user-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 15px;
+}
+
+.user-item .content {
+    display: flex;
+    align-items: center;
+}
+
+.user-item .user-image {
+    margin-right: 15px;
+}
+
+.user-item .user-image img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-item .details {
+    margin-left: 15px;
+}
+
+.user-item .details span {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.user-item .action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.user-item .action-buttons button {
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.user-item .action-buttons button:first-child {
+    background: #2196F3;
+    color: #fff;
+}
+
+.user-item .action-buttons button:first-child:hover {
+    background: #1976D2;
+}
+
+.user-item .action-buttons button:last-child {
+    background: #f44336;
+    color: #fff;
+}
+
+.user-item .action-buttons button:last-child:hover {
+    background: #D32F2F;
+}
+
+/* Edit User Form Styles */
+.current-image {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.current-image p {
+    margin-bottom: 5px;
+    color: #67676a;
+}
+
+.current-image img {
+    border-radius: 50%;
+    border: 2px solid #e6e6e6;
+    padding: 2px;
+}
+
+.field.image input[type="file"] {
+    margin-top: 10px;
+}
+
+/* Status Indicator in Header */
+.wrapper .users header .content img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
